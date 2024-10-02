@@ -21,23 +21,17 @@
 #define WIFI_SSID "soft"
 #define WIFI_PASSWORD "ss2420052"
 
-//#define WIFI_SSID "PISnet_4BDCD0"
-//#define WIFI_PASSWORD "leeinhwan9532"
-
-//#define WIFI_SSID "android9532"
-//#define WIFI_PASSWORD "12345678"
-
 //For the following credentials, see examples/Authentications/SignInAsUser/EmailPassword/EmailPassword.ino
 
 /* 2. Define the API Key */
-#define API_KEY "AIzaSyDYC8LuGNK3pSCIRJzrgf4vVA9gnqR_IFY"
+#define API_KEY "자신의 키"
 
 /* 3. Define the RTDB URL */
-#define DATABASE_URL "https://cho1-a8f77.firebaseio.com" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
+#define DATABASE_URL "데이터베이스 주소" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
 
 /* 4. Define the user Email and password that alreadey registerd or added in your project */
-#define USER_EMAIL "softplay008@gmail.com"
-#define USER_PASSWORD "swplay!@#"
+#define USER_EMAIL "인증 이메일"
+#define USER_PASSWORD "비밀번호"
 
 //Define Firebase Data object
 FirebaseData fbdo;
