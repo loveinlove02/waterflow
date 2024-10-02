@@ -148,17 +148,6 @@ void fn1(void) {
 
       sendSMS("1025029532", 2);
     }
-//    } else if(water>30.0) {
-//      Serial.println("위험");
-//      
-//      
-//      clear_led();
-//      danger();
-//      
-//      isClear = 1;
-//
-//      sendSMS("1025029532", 2);
-//    }
 
     previousTime = millis();  // 카운트 증가
     cnt++; 
